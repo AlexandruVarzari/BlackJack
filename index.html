@@ -9,13 +9,13 @@
   </head>
   <body>
     <div class="flex container">
-      <div><h1>Blackjack</h1></div>
-      <div>You've got Blackjack!</div>
-      <div>Your hand: <span>0</span></div>
-      <div>Sum: <span>0</span></div>
+      <h1>Blackjack</h1>
+      <p id="message-el">Do you want to play a round?</p>
+      <p id="cards-el">Your hand:</p>
+      <p id="sum-el">Sum:</p>
       <div class="flex">
-        <button>Start Game</button>
-        <button>Draw</button>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="newCard()">Draw</button>
       </div>
     </div>
   </body>
